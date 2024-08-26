@@ -1,9 +1,9 @@
-#C++ Linux Shell Emulator
+# C++ Linux Shell Emulator
 
-##Overview
-This project is a command-line interface (CLI) developed in C++, designed to emulate the core functionality of a typical Linux shell. It supports a variety of essential features, including command execution, process management, input/output redirection, and more. The shell is enhanced with additional capabilities such as wildcard handling, command history navigation, malware detection, and file lock detection.
+## Overview
+This project is a command-line interface (CLI) developed in C++, designed to emulate the core functionality of a typical Linux shell. It supports essential features, including command execution, process management, input/output redirection, and more. The shell is enhanced with additional capabilities such as wildcard handling, command history navigation, malware detection, and file lock detection.
 
-##Features
+## Features
 Command Execution: Supports execution of Linux commands using system calls.
 Process Management: Utilizes fork(), execvp(), poll(), and pipe() system calls to handle processes efficiently.
 Input/Output Redirection: Implements input/output redirection for files.
@@ -14,7 +14,7 @@ Command History Navigation: Allows users to navigate through previously executed
 Malware Detection: Integrated basic malware detection to alert users of potentially harmful commands.
 File Lock Detection: Detects and warns users of file lock issues.
 
-##System Calls Used
+## System Calls Used
 execvp(): To execute commands.
 dup2(): For input/output redirection.
 fork(): To create child processes.
